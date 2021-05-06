@@ -11,4 +11,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-//font-family: 'Open Sans Condensed', sans-serif;
+//
+body{
+background-size: 100%;
+background-image: url("https://image.freepik.com/vector-gratis/fondo-moderno-formas-abstractas-hojas_43778-567.jpg");
+}
+.continer{
+     font-family: 'Freckle Face', cursive;
+     color: #AE8674;
+}
+h1{
+    font-size: 80px;
+}
+.lead{
+    font-size: 20xp;
+}
