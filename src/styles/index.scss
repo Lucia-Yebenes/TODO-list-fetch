@@ -16,13 +16,29 @@ body{
 background-size: 100%;
 background-image: url("https://image.freepik.com/vector-gratis/fondo-moderno-formas-abstractas-hojas_43778-567.jpg");
 }
-.continer{
-     font-family: 'Freckle Face', cursive;
-     color: #AE8674;
-}
+
 h1{
+    font-family: 'Freckle Face', cursive;
     font-size: 80px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #AE8674;
 }
 .lead{
     font-size: 20xp;
+}
+.entrada{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 3px solid #AE8674;
+    border-radius: 0px;
+}
+.lista{
+    font-family: 'Indie Flower', cursive;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 3px dotted #AE8674;
 }

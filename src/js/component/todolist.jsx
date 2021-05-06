@@ -22,7 +22,7 @@ const Todolist = () => {
 				<form onSubmit={thingsToDo} className="col-5 m-auto">
 					<input
 						type="text"
-						className="form-control"
+						className="entrada form-control bg-transparent"
 						placeholder="Wath need to be done?"
 						onChange={e => {
 							setHomework(e.target.value);
@@ -30,10 +30,12 @@ const Todolist = () => {
 						value={homework}
 					/>
 				</form>
-				<div className="todolist col-5 m-auto ">
+				<div className="todolist col-5 m-auto">
 					<ul className="list-group">
 						{task.map(item => (
-							<li className="list-group-item" key={item.id}>
+							<li
+								className="lista list-group-item bg-transparent rounded-0"
+								key={item.id}>
 								<span className="lead">{item.nameTask}</span>
 								<button
 									className="btn btn-sm float-right mx-2"
