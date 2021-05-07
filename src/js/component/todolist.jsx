@@ -4,6 +4,7 @@ import shortid from "shortid";
 const Todolist = () => {
 	let [homework, setHomework] = useState("");
 	const [task, setTask] = useState([]);
+	const [largoArray, setLargoArray] = useState("");
 	const thingsToDo = e => {
 		e.preventDefault();
 		console.log("hice enter");
@@ -14,6 +15,9 @@ const Todolist = () => {
 		//console.log(id);
 		const arrayFiltrado = task.filter(item => item.id !== id);
 		setTask(arrayFiltrado);
+	};
+	const largo = () => {
+		setLargoArray(task);
 	};
 	return (
 		<>
@@ -45,6 +49,7 @@ const Todolist = () => {
 							</li>
 						))}
 					</ul>
+					<p>{() => setLargoArray()}</p>
 				</div>
 			</div>
 		</>
